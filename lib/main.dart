@@ -29,10 +29,6 @@ class _CalculatorState extends State<Calculator> {
   Widget build(BuildContext context) {
     return new Scaffold(
       
-      // appBar: AppBar(
-      //   title:Text("General Calculator"),
-      //   backgroundColor: Colors.red[300],
-      // ),
       backgroundColor: Colors.black,
       body: new Column(
         mainAxisAlignment: MainAxisAlignment.end,
@@ -94,67 +90,6 @@ class _CalculatorState extends State<Calculator> {
     );
   }
 
-//without using maths dart library 
-// int firstnum ;
-// int secondnum ;
-// String textToDisplay=" ";
-// String res;
-// String operatorToPerform;  
-
-//void btnclicked(String btnval){
-  // if (btnval == "AC"){
-    //  firstnum =0 ;
-    //  secondnum=0 ;
-    //  textToDisplay =" ";
-    //  res = '';
-  /// }
-   //else if (btnval == "Del"){
-
-    // textToDisplay=int.parse(textToDisplay.substring(0,textToDisplay.length - 1)).toString();
-     
-
-   //}
-
-
-
-  // else if (btnval == "+"|| btnval == "-"||btnval == "X"||btnval =="/"||btnval=="^"){
-   //  firstnum = int.parse(textToDisplay);
-   //  res = " ";
-  //  operatorToPerform = btnval ;
-  // }
-   //else if (btnval == "="){
-    // secondnum = int.parse(textToDisplay);
-    // if (operatorToPerform == "+"){
-     //  res=(firstnum+secondnum).toString();   
-     // }
-     // if (operatorToPerform == "-"){
-     //  res=(firstnum-secondnum).toString();   
-     // }
-     // if (operatorToPerform == "X"){
-     //  res=(firstnum*secondnum).toString();   
-     // }
-      //if (operatorToPerform == "/"){
-     //  res=(firstnum/secondnum).toString();   
-     // }
-      //if (operatorToPerform == "^"){
-      // res=(firstnum^secondnum).toString();   
-    //  }
-     
-  // }
-
-//else {
-  //res = int.parse(textToDisplay+btnval).toString();
-
-//}
-
-// setState(() {
-//   textToDisplay = res;
-// });
-
-
-
-
-
 
 Widget btn(btnval,Color color){
   return Container(
@@ -200,7 +135,6 @@ Widget btn0(btnval,Color color){
 //new logic 
 
 String equation = " ";
-String result = " ";
 String expression = "";
   
 
@@ -208,7 +142,7 @@ btnclicked(String btnval){
 setState(() {
     if (btnval == "AC"){
       equation=" ";
-      result =" ";
+     
 
   }else if (btnval == "Del"){
     equation=equation.substring(0,equation.length-1);
@@ -239,13 +173,8 @@ setState(() {
 }
 
 
-
-
-
 }
 
 
 
 
-
-//}

@@ -52,41 +52,41 @@ class _CalculatorState extends State<Calculator> {
         ],
         ),
         Row(children: <Widget>[
-           btn("AC",Colors.pink[100]),
-           btn("Del",Colors.pink[100]),
-           btn("^",Colors.pink[100]),
-           btn("/",Colors.orange[100]),
+           btn("AC",Colors.green[400]),
+           btn("Del",Colors.green[400]),
+           btn("^",Colors.green[400]),
+           btn("/",Colors.green[400]),
           
         ],
         ),
         Row(children: <Widget>[
          
-           btn("7", Colors.blueGrey),
-           btn("8",Colors.blueGrey),
-           btn("9",Colors.blueGrey),
-           btn("x",Colors.orange[100]),
+           btn("7", Colors.white),
+           btn("8",Colors.white),
+           btn("9",Colors.white),
+           btn("x",Colors.green[400]),
 
         ],),
         Row(children: <Widget>[
 
-           btn("4", Colors.blueGrey),
-           btn("5",Colors.blueGrey),
-           btn("6",Colors.blueGrey),
-           btn("-",Colors.orange[100]),
+           btn("4", Colors.white),
+           btn("5",Colors.white),
+           btn("6",Colors.white),
+           btn("-",Colors.green[400]),
 
         ],),
         Row(children: <Widget>[
-           btn("1", Colors.blueGrey),
-           btn("2",Colors.blueGrey),
-           btn("3",Colors.blueGrey),
-           btn("+",Colors.orange[100]),
+           btn("1", Colors.white),
+           btn("2",Colors.white),
+           btn("3",Colors.white),
+           btn("+",Colors.green[400]),
 
         ],),
 
         Row(children: <Widget>[
-           btn0("0", Colors.blueGrey),
-           btn(".",Colors.blueGrey),
-           btn("=",Colors.orange[100]),
+           btn0("0", Colors.white),
+           btn(".",Colors.white),
+           btn("=",Colors.green[400]),
         ],)
 
         ]
@@ -94,7 +94,7 @@ class _CalculatorState extends State<Calculator> {
     );
   }
 
-
+//without using maths dart library 
 // int firstnum ;
 // int secondnum ;
 // String textToDisplay=" ";
